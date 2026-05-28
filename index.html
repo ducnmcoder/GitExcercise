@@ -6,52 +6,56 @@
   <title>Nguyen Minh Duc - Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #eef2f5;
       color: #333;
     }
     .container {
-      max-width: 900px;
-      margin: 20px auto;
+      max-width: 1000px;
+      margin: 30px auto;
       background-color: #fff;
-      padding: 20px 40px;
-      border-radius: 8px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 30px 50px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
     .header {
       display: flex;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     .header img {
-      width: 120px;
-      height: 120px;
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
-      margin-right: 20px;
+      margin-right: 25px;
       object-fit: cover;
-      border: 2px solid #2980b9;
-    }
-    h1, h2 {
-      color: #2c3e50;
+      border: 3px solid #2980b9;
     }
     h1 {
-      font-size: 28px;
+      font-size: 32px;
+      color: #2c3e50;
       margin-bottom: 5px;
     }
     h2 {
-      font-size: 20px;
-      margin-top: 25px;
+      font-size: 22px;
+      color: #2c3e50;
+      margin-top: 35px;
       margin-bottom: 10px;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 2px solid #2980b9;
       padding-bottom: 5px;
     }
+    h3 {
+      color: #2980b9;
+      margin-bottom: 5px;
+    }
     p {
-      margin: 5px 0;
+      margin: 6px 0;
+      line-height: 1.5;
     }
     ul {
-      margin: 5px 0 15px 20px;
+      margin: 6px 0 15px 20px;
     }
     .contact a {
       color: #2980b9;
@@ -60,11 +64,24 @@
     .contact a:hover {
       text-decoration: underline;
     }
-    .project, .skill-section {
-      margin-bottom: 20px;
+    .skill-section, .project {
+      margin-bottom: 25px;
+      padding: 15px;
+      background-color: #f9fbfd;
+      border-left: 4px solid #2980b9;
+      border-radius: 6px;
     }
     .project ul {
       margin-left: 20px;
+    }
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .header img {
+        margin-bottom: 15px;
+      }
     }
   </style>
 </head>
@@ -72,7 +89,7 @@
   <div class="container">
     <!-- Header -->
     <div class="header">
-      <img src="C:/Semester6/GitExcercise/MyAvartar.png" alt="Nguyen Minh Duc">
+      <img src="https://raw.githubusercontent.com/ducnmcoder/GitExcercise/main/MyAvatar.png" alt="Nguyen Minh Duc">
       <div>
         <h1>Nguyen Minh Duc</h1>
         <p><strong>Fresher .NET / Backend Java Developer</strong></p>
